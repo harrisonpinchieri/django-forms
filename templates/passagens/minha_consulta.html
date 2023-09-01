@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passagem</title>
+</head>
+<body>
+
+    <section class="container mt-2">
+       <h1>Passagem </h1>
+       <p>Sua origem é: {{ form.origem }}
+        <p>Seu destino é: {{ form.destino }}
+        <p>Sua data de ida é: {{ form.data_ida }}
+        <p>Sua data de volta é: {{ form.data_volta }}
+    </section>
+    
+  
+   
+
+    {% load bootstrap5 %}
+    {% bootstrap_css %}
+    {% bootstrap_javascript %}
+   
+</body>
+</html>
